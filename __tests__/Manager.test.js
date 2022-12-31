@@ -1,9 +1,9 @@
-const Manager = require ('../lib/Manager.js')
+const Manager = require('../lib/Manager.js')
 const manager = new Manager('Tony Parker', '9', 'tparker@gmail.com', '9A');
 
 describe("Manager", () => {
     describe("test all properties of Manager constructor", () => {
-        it ("test name property", () => {
+        it("test name property", () => {
             expect(manager.name).toEqual('Tony Parker');
         })
         it("test id property", () => {
