@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+function body(cards) {
+    return `
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,32 +20,12 @@
 </header>
 <main>
     <div class="flex-container">
-        <div class="flex-item">
-            <h2>Name</h2>
-            <h3>Role</h3>
-            <ul>
-                <li>Data</li>
-                <li>Data</li>
-                <li>Data</li>
-            </ul>
-        </div>
-        <div class="flex-item">
-            Module 2
-        </div>
-        <div class="flex-item">
-            Module 3
-        </div>
-        <div class="flex-item">
-            Module 4
-        </div>
-        <div class="flex-item">
-            Module 5
-        </div>
-        <div class="flex-item">
-            Module 6
-        </div>
+    ${cards}
     </div>
-</main>
-<footer></footer>
-</body>
-</html>
+    </main>
+    <footer></footer>
+    </body>
+    </html>`
+}
+
+module.exports = body
