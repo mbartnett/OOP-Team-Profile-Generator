@@ -1,11 +1,11 @@
 function managerCard(manager){
     return `<div class="flex-item">
     <h2>${manager.name}</h2>
-    <h3>${manager.getRole()}</h3>
+    <h3><i class="fa-solid fa-mug-hot"></i> ${manager.getRole()}</h3>
     <ul>
-        <li>${manager.id}</li>
-        <li>${manager.email}</li>
-        <li>${manager.officeNumber}</li>
+        <li><b>ID:</b> ${manager.id}</li>
+        <li><b>Email:</b> <a href="mailto:${manager.email}">${manager.email}</a></li>
+        <li><b>Office number:</b> ${manager.officeNumber}</li>
     </ul>
 </div>`
 }

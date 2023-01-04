@@ -1,12 +1,16 @@
-// Node.js `requires`
+// node.js `requires`
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+
+// HTML elements
 
 const managerCard = require('./src/manager-card');
 const engineerCard = require('./src/engineer-card');
 const internCard = require('./src/intern-card');
 const body = require('./src/body');
+
+// employee libraries 
 
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -14,11 +18,13 @@ const Intern = require('./lib/Intern');
 
 const team = [];
 
+// employee-type questions
+
 const managerQuestion = [
     {
         type: "input",
         name: "Name",
-        message: "What the employee's name?",
+        message: "What is the manager's name?",
     },
     {
         type: "input",
@@ -41,7 +47,7 @@ const engineerQuestion = [
     {
         type: "input",
         name: "Name",
-        message: "What the employee's name?",
+        message: "What is the engineer's name?",
     },
     {
         type: "input",
@@ -64,7 +70,7 @@ const internQuestion = [
     {
         type: "input",
         name: "Name",
-        message: "What the employee's name?",
+        message: "What is the intern's name?",
     },
     {
         type: "input",
@@ -102,7 +108,7 @@ function addIntern() {
 function buildTeam() {
     console.log(team)
     let cards = ''
-    for(i=0;i<team.length;i++){
+    for(i=0; i<team.length; i++){
         if(team[i].getRole()==='Manager'){
             cards=cards+managerCard(team[i])
         }

@@ -1,6 +1,6 @@
 function body(cards) {
     return `
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,10 +22,10 @@ function body(cards) {
     <div class="flex-container">
     ${cards}
     </div>
-    </main>
-    <footer></footer>
-    </body>
-    </html>`
+</main>
+<footer></footer>
+</body>
+</html>`
 }
 
 module.exports = body
