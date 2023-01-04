@@ -1,22 +1,20 @@
 # Object-Oriented-Programming-Team-Profile-Generator
-A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This application uses Node.js to create a website featuring member profiles for an engineering team
+This application uses Node.js to create a website featuring member profiles for an engineering team.
 
-# Table of Contents
+## Table of Contents
 
-*nbsp;[Description](#description)
-*nbsp;[Table of Contents](#table-of-contents)
-*nbsp;[Installation](#installation)
-*nbsp;[Usage](#usage)
-*nbsp;[License](#license)
-*nbsp;[How to Contribute](#how-to-contribute)
-*nbsp;[Tests](#tests)
-*nbsp;[Questions](#questions)
+  &bull; [Table of Contents](#table-of-contents)<br>
+  &bull; [Installation](#installation)<br>
+  &bull; [Usage](#usage)<br>
+  &bull; [License](#license)<br>
+  &bull; [How to Contribute](#how-to-contribute)<br>
+  &bull; [Tests](#tests)<br>
+  &bull; [Questions](#questions)<br>
 
 ## Installation
 
