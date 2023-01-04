@@ -8,21 +8,20 @@ This application uses Node.js to create a website featuring member profiles for 
 
 ## Table of Contents
 
-  &bull; [Table of Contents](#table-of-contents)<br>
-  &bull; [Installation](#installation)<br>
-  &bull; [Usage](#usage)<br>
-  &bull; [License](#license)<br>
-  &bull; [How to Contribute](#how-to-contribute)<br>
-  &bull; [Tests](#tests)<br>
-  &bull; [Questions](#questions)<br>
+### &bull; [Installation](#installation)<br>
+### &bull; [Usage](#usage)<br>
+### &bull; [License](#license)<br>
+### &bull; [How to Contribute](#how-to-contribute)<br>
+### &bull; [Tests](#tests)<br>
+### &bull; [Questions](#questions)<br>
 
 ## Installation
 
-Node.js, the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4), and the [Jest testing framework](https://jestjs.io/) are required for this application. 
+[Node.js](https://nodejs.org/en/), the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4), and the [Jest testing framework](https://jestjs.io/) are required for this application. 
 
 ## Usage
 
-Answer the questions when prompted using the command line in order to create the team profiles and generate the website.<br><br>![Team Profile Generator](Team-Profile-Generator.png)<br><br>[Video: Team Profile Generator Demo](TK)
+Answer the questions when prompted using the command line in order to create the team profiles and generate the website.<br><br>![Team Profile Generator](./assets/Team-Profile-Generator.png)<br><br>[Video: Team Profile Generator Demo (coming soon)](TK)
 
 ## License
 
