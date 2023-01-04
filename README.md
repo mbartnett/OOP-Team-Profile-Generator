@@ -8,12 +8,12 @@ This application uses Node.js to create a website featuring member profiles for 
 
 ## Table of Contents
 
-### &bull; [Installation](#installation)<br>
-### &bull; [Usage](#usage)<br>
-### &bull; [License](#license)<br>
-### &bull; [How to Contribute](#how-to-contribute)<br>
-### &bull; [Tests](#tests)<br>
-### &bull; [Questions](#questions)<br>
+#### &bull; [Installation](#installation)<br>
+#### &bull; [Usage](#usage)<br>
+#### &bull; [License](#license)<br>
+#### &bull; [How to Contribute](#how-to-contribute)<br>
+#### &bull; [Tests](#tests)<br>
+#### &bull; [Questions](#questions)<br>
 
 ## Installation
 
