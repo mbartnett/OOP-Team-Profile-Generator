@@ -16,11 +16,13 @@ const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
+// array of team members
+
 const team = [];
 
 // employee-type questions
 
-const managerQuestion = [
+const managerQuestions = [
     {
         type: "input",
         name: "Name",
@@ -43,7 +45,7 @@ const managerQuestion = [
     },
 ];
 
-const engineerQuestion = [
+const engineerQuestions = [
     {
         type: "input",
         name: "Name",
@@ -66,7 +68,7 @@ const engineerQuestion = [
     },
 ];
 
-const internQuestion = [
+const internQuestions = [
     {
         type: "input",
         name: "Name",
@@ -89,8 +91,10 @@ const internQuestion = [
     },
 ];
 
+// team-building functions
+
 function addEngineer() {
-    inquirer.prompt(engineerQuestion).then(response => {
+    inquirer.prompt(engineerQuestions).then(response => {
         const engineer = new Engineer(response.Name, response.ID, response.Email, response.Github)
         team.push(engineer)
         addTeamMember()
@@ -98,7 +102,7 @@ function addEngineer() {
 }
 
 function addIntern() {
-    inquirer.prompt(internQuestion).then(response => {
+    inquirer.prompt(internQuestions).then(response => {
         const intern = new Intern(response.Name, response.ID, response.Email, response.School)
         team.push(intern)
         addTeamMember()
@@ -142,7 +146,7 @@ function addTeamMember() {
 }
 
 function mainMenu() {
-    inquirer.prompt(managerQuestion).then(response => {
+    inquirer.prompt(managerQuestions).then(response => {
         const manager = new Manager(response.Name, response.ID, response.Email, response.OfficeNumber)
         team.push(manager)
         addTeamMember()

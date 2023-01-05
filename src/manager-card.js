@@ -1,5 +1,6 @@
 function managerCard(manager){
-    return `<div class="flex-item">
+    return `
+    <div class="flex-item">
     <h2>${manager.name}</h2>
     <h3><i class="fa-solid fa-mug-hot"></i> ${manager.getRole()}</h3>
     <ul>
