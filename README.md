@@ -21,7 +21,7 @@ This application uses Node.js to create a website featuring member profiles for 
 
 ## Usage
 
-Answer the questions when prompted using the command line in order to create the team profiles and generate the website.<br><br>![Team Profile Generator](./assets/Team-Profile-Generator.png)<br><br>[Video: Team Profile Generator Demo (coming soon)](TK)
+Answer the questions when prompted using the command line in order to create the team profiles and generate the website.<br><br>![Team Profile Generator](./assets/Team-Profile-Generator.png)<br><br>[Video: Team Profile Generator Demo](https://drive.google.com/file/d/1wE5PIciGJvgfKq-h7ftW13eljUbGqjIa/view?usp=sharing)
 
 ## License
 
