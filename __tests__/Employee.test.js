@@ -10,7 +10,7 @@ describe("Employee", () => {
             expect(employee.id).toEqual('21');
         })
         it("test email property", () => {
-            expect(employee.email).toEqual('jdoe@gmail.com');
+            expect(employee.email).toEqual('tduncan@gmail.com');
         })
     })
     describe("test all methods of Employee constructor", () => {
