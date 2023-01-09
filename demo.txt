@@ -1,3 +1,11 @@
+// TESTS
+// cd __tests__
+
+npm test
+
+// APP 
+// cd .. node index.js
+
 Erlich Bachman
 1
 bachman@piedpiper.com
